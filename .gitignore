@@ -6,7 +6,7 @@ yarn-error.log*
 package-lock.json
 tests/**/coverage/
 .history/
-/miniprogram_npm/
+miniprogram_npm/
 
 # Editor directories and files
 .idea
