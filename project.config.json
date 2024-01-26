@@ -38,7 +38,16 @@
   },
   "libVersion": "2.27.0",
   "packOptions": {
-    "ignore": [],
+    "ignore": [
+      {
+        "type": "regexp",
+        "value": "\\.md$"
+      },
+      {
+        "type": "folder",
+        "value": "node_modules"
+      }
+    ],
     "include": []
   }
 }
